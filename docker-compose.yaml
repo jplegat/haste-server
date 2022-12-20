@@ -10,3 +10,4 @@ services:
       - 7777:7777
   memcached:
     image: memcached:latest
+    restart: unless-stopped
